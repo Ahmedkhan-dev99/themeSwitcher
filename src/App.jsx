@@ -21,8 +21,8 @@ function App() {
 
   return (
     <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
-      <div className="flex flex-wrap min-h-screen justify-center items-center">
-        <h1 className='text-7xl bg-gradient-to-b from-sky-700 to-green-700 bg-clip-text text-transparent  text-center font-bold '>Themes Switcher </h1>
+      <div className="flex flex-wrap min-h-screen justify-center dark:bg-gray-900 items-center">
+        <h1 className='text-7xl   text-black  text-center font-bold dark:text-gray-100'>Themes Switcher </h1>
         <div className="w-full">
           <div className="w-full max-w-sm mx-auto flex justify-center mb-4">
             <ThemeBtn />
